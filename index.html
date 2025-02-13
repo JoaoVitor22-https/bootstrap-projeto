@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site com Bootstrap 5</title>
+    <!-- Link para o CSS do Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Barra de Navegação -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Meu Site</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="nascar.html">Nascar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="wec.html">WEC</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="wrc.html">WRC</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="formula.html">Formula Indy</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contato.html">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Seção de Introdução -->
+<section class="jumbotron text-center text-white bg-primary py-5">
+    <div class="container">
+        <h1 class="display-4">Bem-vindo ao nosso site!</h1>
+        <p class="lead">Aqui você encontra as melhores categorias do automobilismo.</p>
+        <a href="#" class="btn btn-light btn-lg">Saiba mais</a>
+    </div>
+</section>
+
+<!-- Carrossel de Imagens -->
+<section class="container py-5">
+    <h2 class="text-center mb-4">Carrossel de Imagens</h2>
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/nascar.jpg" class="d-block w-100" alt="Imagem 1">
+            </div>
+            <div class="carousel-item">
+                <img src="img/WEC.jpg" class="d-block w-100" alt="Imagem 2">
+            </div>
+            <div class="carousel-item">
+                <img src="img/WRC.jpg" class="d-block w-100" alt="Imagem 3">
+            </div>
+            <div class="carousel-item">
+                <img src="img/F1.jpg" class="d-block w-100" alt="Imagem 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
+
+<!-- Galeria de Imagens -->
+<section class="container py-5">
+    <h2 class="text-center mb-4">Nossa Galeria</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="img/galeria.jpg" class="card-img-top" alt="Imagem 1">
+                <div class="card-body">
+                    <h5 class="card-title">Nascar CUP</h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="img/galeria2.jpg" class="card-img-top" alt="Imagem 2">
+                <div class="card-body">
+                    <h5 class="card-title">WEC</h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="img/galeira3.jpg" class="card-img-top" alt="Imagem 3">
+                <div class="card-body">
+                    <h5 class="card-title">WRC</h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mt-4">
+            <div class="card">
+                <img src="img/galeria4.jpg" class="card-img-top" alt="Imagem 4">
+                <div class="card-body">
+                    <h5 class="card-title">Formula 1</h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Rodapé -->
+<footer class="bg-dark text-white py-3">
+    <div class="container text-center">
+        <p>&copy; 2025 Meu Site. Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+<!-- Scripts do Bootstrap 5 -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
